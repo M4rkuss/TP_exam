@@ -53,4 +53,4 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: ${{ secrets.DOCKER_HUB_USERNAME }}/TP_exam:latest
+        tags: ${{ secrets.DOCKER_HUB_USERNAME }}/tp_exam:latest
